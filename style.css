@@ -1,0 +1,95 @@
+/* RESET CSS */
+
+button:hover {
+  border: none;
+}
+
+/*BODY CSS*/
+body{
+  background-color: brown;
+}
+
+/* CALCULATOR BODY */
+
+#calculator {
+  width: 100%;
+  height: 100vh;
+}
+
+.main-body {
+  height: 100%;
+  width: auto;
+  margin: 0.5rem;
+  box-sizing: border-box;
+}
+
+.display-screen {
+  height: 5rem;
+  width: 100%;
+  margin: 0.5rem;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  text-overflow: clip;
+}
+
+#user-input {
+  text-align: right;
+  font-size: 3rem;
+  padding-right: 16px;
+  overflow-y: hidden;
+}
+
+#user-input::-webkit-scrollbar {
+  width: 0px;
+}
+
+.number {
+  height: 7rem;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.number button {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* .number {
+  padding-left: 0;
+  padding-right: 0;
+} */
+
+.operator {
+  height: 7rem;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.operator button {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.remove-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.mini-padding {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (max-width: 575px) {}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) {}

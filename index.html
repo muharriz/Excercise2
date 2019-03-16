@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Kalkulator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="material-color.min.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-1 col-md-3 col-lg-4 col-xl-4"></div>
+      <div class="col-sm-10 col-md-6 col-lg-4 col-xl-4">
+        <section id="calculator" class="grey darken-2">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="display-screen grey lighten-2">
+                <p id="user-input"></p>
+              </div>
+            </div>
+            <div class="row mini-padding">
+              <div class="col-sm-12 operator-box">
+                <div class="row">
+                  <div class="col operator"><button class="helper" aria-valuetext="AC">AC</button></div>
+                  <div class="col operator"><button class="helper" aria-valuetext="C">C</button></div>
+                  <div class="col operator"><button class="operator-sign" aria-valuetext="%">%</button></div>
+                  <div class="col operator"><button class="operator-sign" aria-valuetext="+">+</button></div>
+                </div>
+              </div>
+              <div class="col-sm-9 number-box">
+                <div class="row number-input">
+                  <div class="col number"><button class="number-val" aria-valuetext="7">7</button></div>
+                  <div class="col number"><button class="number-val" aria-valuetext="8">8</button></div>
+                  <div class="col number"><button class="number-val" aria-valuetext="9">9</button></div>
+                </div>
+                <div class="row number-input">
+                  <div class="col number"><button class="number-val" aria-valuetext="4">4</button></div>
+                  <div class="col number"><button class="number-val" aria-valuetext="5">5</button></div>
+                  <div class="col number"><button class="number-val" aria-valuetext="6">6</button></div>
+                </div>
+                <div class="row number-input">
+                  <div class="col number"><button class="number-val" aria-valuetext="1">1</button></div>
+                  <div class="col number"><button class="number-val" aria-valuetext="2">2</button></div>
+                  <div class="col number"><button class="number-val" aria-valuetext="3">3</button></div>
+                </div>
+                <div class="row number-input">
+                  <div class="col-sm-8 number"><button class="number-val" aria-valuetext="0">0</button></div>
+                  <div class="col-sm-4 number"><button class="number-val" aria-valuetext=".">.</button></div>
+                </div>
+              </div>
+              <div class="col-sm-3 operator-box">
+                <div class="row operator-input">
+                  <div class="col operator"><button class="operator-sign" aria-valuetext="-">-</button></div>
+                </div>
+                <div class="row operator-input">
+                  <div class="col operator"><button class="operator-sign" aria-valuetext="*">*</button></div>
+                </div>
+                <div class="row operator-input">
+                  <div class="col operator"><button class="operator-sign" aria-valuetext="/">/</button></div>
+                </div>
+                <div class="row operator-input">
+                  <div class="col operator"><button class="helper" aria-valuetext="=">=</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="col-sm-1 col-md-3 col-lg-4 col-xl-4"></div>
+    </div>
+  </div>
+</body>
+
+
+<script type="text/javascript" src="jquery.slim.min.js"></script>
+<script type="text/javascript" src="bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
